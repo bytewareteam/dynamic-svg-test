@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytewareteam/dynamic-svg-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytewareteam/dynamic-svg-test/issues"
+  },
+  "homepage": "https://github.com/bytewareteam/dynamic-svg-test#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

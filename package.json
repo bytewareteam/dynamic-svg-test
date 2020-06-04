@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/bytewareteam/dynamic-svg-test#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.7"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bulma": "^0.8.2"
   }
 }

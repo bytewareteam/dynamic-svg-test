@@ -1,9 +1,11 @@
 let urls = [];
 function onLoaded() {
+    console.log("On load")
     const svgContainers = document.getElementsByClassName("dynamic-svg");
 
     const fileInput = document.getElementById("file-format-1");
     fileInput.onchange = (e) => {
+        console.log('changed');
         const tmpUrl = URL.createObjectURL(e.target.files.item(0));
         urls.push(tmpUrl);
         const svgContainer = svgContainers.item(0);

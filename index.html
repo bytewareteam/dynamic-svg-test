@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Dynamic</title>
+</head>
+<body onload="onLoaded()">
+    <h1>Svg Example</h1>
+    <button type="button" onclick="clear()">Clear Memory</button>
+
+    <label for="file-format-1">File format 1</label>
+    <input type="file" name="file-format-1" id="file-format-1" accept="image/*"/>
+    <object class="dynamic-svg" data="assets/format-2.svg" data-dummy="content-2.jpg"></object>
+
+    <label for="file-format-2">File Format 2</label>
+    <input type="file" name="file-format-1" id="file-format-2" accept="image/*"/>
+    <object class="dynamic-svg" data="assets/format-1.svg" data-dummy="content-1.jpg"></object>
+    <script src="main.js" defer></script>
+</body>
+</html>

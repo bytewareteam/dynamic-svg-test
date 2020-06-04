@@ -10,6 +10,7 @@ function onLoaded() {
         svgContainer.setAttribute('data-dummy', tmpUrl);
         svgBindSource(svgContainer);
     }
+
     const fileInput2 = document.getElementById("file-format-2");
     fileInput2.onchange = (e) => {
         const tmpUrl = URL.createObjectURL(e.target.files.item(0));
@@ -32,3 +33,5 @@ function clear() {
     urls.forEach( i => URL.revokeObjectURL(i));
     urls = [];
 }
+
+window.addEventListener('load', onLoaded);
